@@ -1,0 +1,130 @@
+html, body {
+	margin: 0;
+	padding: 0
+}
+
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'SUIT-Regular';
+	text-align: center
+}
+
+p {
+	margin: 0 10px 10px
+}
+
+a {
+	padding: 5px;
+	text-decoration: none;
+	color: #000000;
+}
+div#header {
+	background-color: #F3F2ED;
+	background: #fff url('../image/nav_bg01.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+/*
+div#header h1 {
+	height: 80px;
+	line-height: 80px;
+	margin: 17px 0 0 0;
+	padding-left: 10px;
+}
+*/
+/***************** menu start****************/
+/***************** menu end****************/
+div#container {
+	text-align: left
+}
+
+div#content p {
+	line-height: 1.4
+}
+
+div#navigation {
+	background: #F6F0E0;
+}
+
+div#navigation {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*
+	float: left;
+	width: 150px;
+	*/
+}
+
+div#navigation div {
+	height: 40px;
+}
+
+div#navigation ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+div#navigation li {
+	float: left;
+	height: 100%;
+	text-align: center;
+}
+div#navigation a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	line-height: 40px;
+	padding: 0px 15px;
+}
+
+div#navigation p {
+	margin-top: 20px;
+	margin-left: 15px
+}
+/*
+div#extra{background:#CCC8B3;}
+*/
+div#footer, div#foot {
+	background: #e6e6e6;
+	margin-top: 10px;
+}
+
+div#footer p, div#foot p {
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+
+div#container {
+	width: 700px;
+	margin: 0 auto
+}
+/*
+div#navigation{float:left;width:150px;height:350px;margin-left:-700px}
+*/
+/*
+div#wrapper{float:left;width:100%}
+*/
+div#wrapper {
+	margin-left: 0px;
+	width: 100%
+}
+
+div#content {
+	margin: 20px 0px;
+	width: 100%
+}
+
+div#footer, div#foot {
+	clear: left;
+	width: 100%
+}
